@@ -1,0 +1,427 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+
+body.m-gray {
+    background-color: #959595;
+}
+
+.w-page {
+    min-width: 1000px;
+}
+
+.b-head {}
+.b-head .logo {
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+.b-head .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.b-head .head {
+    padding: 0 0 0 80px;
+}
+
+.b-head .head .navigation {
+    background-color: #fff;
+    height: 55px;
+}
+.b-head .head .navigation .profile {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin: 3px 50px 0 0;
+}
+.b-head .head .navigation .profile .avatar {
+    border-radius: 25px;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+.b-head .head .navigation .profile .avatar img {
+    height: 100%;
+}
+.b-head .head .navigation .profile .trigger {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    bottom: 0;
+    right: 0;
+    font-size: 0.75em;
+    overflow: hidden;
+}
+
+.b-head .head .navigation .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 80px;
+    background-color: #fff;
+    color: #000;
+}
+.b-head .head .navigation .menu li {
+    display: inline-block;
+    padding: 13px 25px 13px 0;
+    text-transform: uppercase;
+}
+.b-head .head .navigation .menu li a {
+    display: inline-block;
+    padding: 3px 5px 3px 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+.b-head .head .navigation .menu li a .notifications {
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    padding-top: 4px;
+    width: 22px;
+    height: 18px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #007cdd;
+    color: #fff;
+    font-size: 0.75em;
+}
+.b-head .head .navigation .menu li a:hover {
+    border-bottom: 4px solid #000;
+}
+.b-head .head .navigation .menu li.m-active {}
+.b-head .head .navigation .menu li.m-active a {
+    border-bottom: 4px solid #000;
+}
+
+.b-head .head .tags {
+    height: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 80px;
+    background-color: #000;
+    color: #fff;
+    font-size: 0.65em;
+}
+.b-head .head .tags li {
+    display: inline-block;
+    padding: 7px 5px 0 0;
+}
+
+
+.w-content {}
+
+
+.b-translate-form {
+    width: 500px;
+    padding: 50px 0 0 0;
+    margin: 0 auto;
+}
+
+.b-translate-form .text {
+    height: 250px;
+    padding: 10px 5px;
+    background-color: #5e5e5e;
+    border: 1px solid #000;
+}
+
+.b-translate-form .timer {
+    height: 50px;
+}
+
+.b-translate-form .form {}
+.b-translate-form .form .lang {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.b-translate-form .form .input-holder {
+    background-color: #fff;
+    padding: 5px 10px 35px;
+    border: 1px solid #000;
+}
+.b-translate-form .form .input-holder .textarea {
+    display: block;
+    padding: 0;
+    width: 100%;
+    height: 200px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.b-translate-form .form .submit-holder {
+    padding: 10px 0;
+    position: relative;
+    text-align: right;
+}
+.b-translate-form .form .submit-holder .submit {
+    position: absolute;
+    right: 10px;
+    top: -30px;
+}
+
+.b-footer {
+    background-color: #000;
+    padding: 15px 0 0 0;
+}
+.b-footer .wrapper {
+    width: 800px;
+    /*height: 150px;*/
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.b-footer .menu {
+    float: right;
+}
+.b-footer .menu li {
+    padding: 5px 0;
+}
+.b-footer .menu li a {
+    font-size: 0.75em;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+}
+.b-footer .menu li.up {
+    padding: 0 0 15px 0;
+}
+.b-footer .menu li.up a {
+    color: #57a5ff;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.b-footer .social {}
+.b-footer .social .label {
+    width: 180px;
+    padding: 0 0 10px 0;
+    font-size: 0.85em;
+    text-align: center;
+    color: #fff;
+}
+.b-footer .social .textarea {
+    padding: 10px 15px;
+    width: 150px;
+    height: 100px;
+    border: none;
+    border-radius: 15px;
+}
+.b-footer .social .share {}
+.b-footer .social .share li {}
+.b-footer .social .share li a {
+    width: 100%;
+    padding: 5px 0;
+    display: inline-block;
+}
+.b-footer .social .share li a.up {
+    padding: 15px 0;
+    color: #57a5ff;
+    text-align: center;
+}
+.b-footer .social .share li a img {
+    width: 25px;
+    height: 25px;
+}
+
+.b-footer .copyright {
+    padding: 30px 0 10px 0;
+    font-size: 0.5em;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+
+.m-bg-yellow {
+    background-color: #ff9c34;
+}
+.m-bg-burlywood {
+    background-color: burlywood;
+}
+.m-bg-green {
+    background-color: green;
+}
+.m-bg-hotpink {
+    background-color: hotpink;
+}
+.m-bg-royalblue {
+    background-color: royalblue;
+}
+.m-bg-saddlebrown {
+    background-color: saddlebrown;
+}
+
+
+.m-color-yellow {
+    color: #ff9c34;
+}
+.m-color-burlywood {
+    color: burlywood;
+}
+.m-color-green {
+    color: green;
+}
+.m-color-hotpink {
+    color: hotpink;
+}
+.m-color-royalblue {
+    color: royalblue;
+}
+.m-color-saddlebrown {
+    color: saddlebrown;
+}
+
+
+
+.b-thread {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0 50px 0;
+}
+.b-thread h2 {}
+
+.b-thread .battle-list {
+    width: 450px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.b-thread .battle-list .battle {
+    background-color: #8e8e8e;
+    color: #fff;
+    height: 141px;
+    margin-bottom: 20px;
+}
+.b-thread .battle-list .battle .names {
+    padding: 15px 0;
+    width: 150px;
+    float: left;
+}
+
+.b-thread .battle-list .battle .names .man {
+    position: relative;
+    left: -10px;
+    padding: 3px 0 3px 20px;
+}
+.b-thread .battle-list .battle .names .man .avatar {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #57a5ff;
+    vertical-align: middle;
+}
+.b-thread .battle-list .battle .names .man .name {
+    display: inline-block;
+    padding-left: 5px;
+    vertical-align: middle;
+}
+
+.b-thread .battle-list .battle .names .vs {
+    position: relative;
+    height: 20px;
+}
+.b-thread .battle-list .battle .names .vs img {
+    position: absolute;
+    width: 40px;
+    right: 0;
+    top: -20px;
+    z-index: 1000;
+}
+
+.b-thread .battle-list .battle .details {
+    margin-left: 151px;
+    padding: 10px 10px 0 0;
+}
+
+.b-thread .battle-list .battle .details .header {
+    margin: 0;
+}
+
+.b-thread .battle-list .battle .details .content {
+    padding: 10px 0;
+    font-size: 0.75em;
+}
+.b-thread .battle-list .battle .details .content .tags {
+    width: 50px;
+    float: right;
+    margin: 0;
+    list-style: none;
+}
+.b-thread .battle-list .battle .details .content .tags li {}
+.b-thread .battle-list .battle .details .content .text {
+    margin-right: 50px;
+}
+
+.b-thread .battle-list .battle .details .info {
+    padding: 5px 0 0 0;
+    font-size: 0.5em;
+}
+.b-thread .battle-list .battle .details .info .timer {
+    float: right;
+}
+.b-thread .battle-list .battle .details .info .timer em {
+    color: #c8c8c8;
+}
+.b-thread .battle-list .battle .details .info .lang {}
+
+
+
+.b-battle-details {
+    float: right;
+    width: 535px;
+    font-size: 0.8em;
+    background-color: #000;
+    padding-bottom: 15px;
+}
+.b-battle-details .text {
+    padding: 15px;
+    color: #fff;
+}
+.b-battle-details .vote-holder {
+    padding: 5px 0;
+    font-size: 0.8em;
+    text-align: right;
+}
+.b-battle-details .vote-holder .btn {
+    color: #fff;
+}
+
+.b-battle-details .challenge {
+    text-align: center;
+}
+.b-battle-details .challenge .btn {
+    display: inline-block;
+    position: relative;
+    padding: 10px 10px 10px 50px;
+    background-color: #57a5ff;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 1.25em;
+}
+.b-battle-details .challenge .btn img {
+    width: 50px;
+    position: absolute;
+    left: 0;
+    top: -20px;
+}
+
+
+
+
+
+

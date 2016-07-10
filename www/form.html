@@ -40,14 +40,38 @@
     </div>
 
     <div class="w-content">
+        <ul class="hints">
+           <li id="hint">
+               <div class="handle"></div>
+               <div class="content">
+                   hand: <br>
+                   существительное
+                   рука (кисть);
+                   hand in hand рука об руку;
+                   hands up ! руки вверх!;
+                   by hand а> от руки; ручным способом; б> самолично
+               </div>
+           </li>
+        </ul>
+
         <div class="b-translate-form">
             <div class="text">
                 July 8 - Day of family, love and loyalty! Treat family members with
                 warmth and care!And we will help to make this day special.
-                Hand closest giftsembodying the warmth of home, comfort and fun leisure
-                in closefamily. Hand closest gifts that embody the warmthhome,
+                <a id="tr-me" href="javascript:void(0)">Hand</a> closest giftsembodying the warmth of home, comfort and fun leisure
+                in close family. Hand closest gifts that embody the warmth home,
                 cozy and interesting leisure in the close family circle.
             </div>
+
+            <script type="text/javascript">
+                document.getElementById('tr-me').onclick = function() {
+                    document.getElementById('hint').style.width = "150px";
+                };
+
+                document.getElementById('hint').onclick = function() {
+                    this.style.width = "0";
+                }
+            </script>
 
             <div class="timer">
                 <script>

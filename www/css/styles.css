@@ -5,7 +5,7 @@ html, body {
 }
 
 body.m-gray {
-    background-color: #959595;
+    background-color: #c9c9c9;
 }
 
 .w-page {
@@ -114,7 +114,37 @@ body.m-gray {
 }
 
 
-.w-content {}
+.w-content {
+    position: relative;
+}
+
+
+.hints {
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.hints li {
+    width: 0;
+    background-color: #fff;
+    overflow: hidden;
+    border-bottom: 25px;
+}
+.hints li .handle {
+    width: 7px;
+    height: 70px;
+    top: 0;
+    left: -7px;
+    position: absolute;
+    background-color: #1ba251;
+}
+.hints li .content {
+    padding: 10px;
+}
+
 
 
 .b-translate-form {
@@ -126,8 +156,17 @@ body.m-gray {
 .b-translate-form .text {
     height: 250px;
     padding: 10px 5px;
-    background-color: #5e5e5e;
-    border: 1px solid #000;
+    background-color: #1ba251;
+    border: 1px solid #005605;
+    color: #fff;
+}
+.b-translate-form .text a {
+    text-decoration: none;
+    color: #fff;
+}
+.b-translate-form .text a:hover {
+    text-decoration: underline;
+    color: #242424;
 }
 
 .b-translate-form .timer {

@@ -1,0 +1,124 @@
+{
+    "feed": [
+        {
+            "original": {
+                "language": "English",
+                "tags": ["english", "anecdote", "worm"],
+                "title": "Worm",
+                "text": "<p><strong>Q.</strong> What's worse than finding a worm in the apple you're eating?<br /><strong>A.</strong> Finding half a worm.</p>"
+            },
+            "battle": [
+                {
+                    "autor_id": 1,
+                    "autor_name": "Егор",
+                    "text": "<p>Что может быть хуже чем найти червяка в яблоке.<br />Найти половину червя.</p>"
+                },
+                {
+                    "autor_id": 2,
+                    "autor_name": "Петр",
+                    "text": "<p>Что же хуже, чем червь, пока ты ешь яблоко.<br />Съесть половину червя.</p>"
+                }
+            ]
+        },
+        {
+            "original": {
+                "language": "English",
+                "tags": ["english", "anecdote", "olive`"],
+                "title": "Olive oil",
+                "text": "If they squeeze olives to get olive oil, then how do they get baby oil?"
+            },
+            "battle": [
+                {
+                    "autor_id": 3,
+                    "autor_name": "Мария",
+                    "text": "Оливки давят чтобы добыть оливковое масло. Что же делают с детьми чтобы добыть детское масло?"
+                },
+                {
+                    "autor_id": 4,
+                    "autor_name": "Иван",
+                    "text": "Если оливковое масло делают из оливок, то из кого делают детское масло."
+                }
+            ]
+        },
+        {
+            "original": {
+                "language": "English",
+                "tags": ["english", "anecdote", "bus"],
+                "title": "Hey, what are you doing in there?",
+                "text": "<p>John returned home late and found a naked man in his wife's bedroom closet.<br />&nbsp;&mdash;Hey, what are you doing in there?<br />&nbsp;&mdash;I'm riding a bus.</p>"
+            },
+            "battle": [
+                {
+                    "autor_id": 1,
+                    "autor_name": "Егор",
+                    "text": "<p>Джон вернулся домой и находит мужчину в шкафу в спальне<br />&nbsp;&mdash;Что вы тут делаете?<br />&nbsp;&mdash;Я веду автобус.</p>"
+                },
+                {
+                    "autor_id": 5,
+                    "autor_name": "Анна",
+                    "text": "<p>Джон нашел в закрытом шкафу мужчину.<br />&nbsp;&mdash;Что вы здесь делает?<br />&nbsp;&mdash;Еду в автобусе.</p>"
+                }
+            ]
+        },
+        {
+            "original": {
+                "language": "English",
+                "tags": ["english", "anecdote", "apes"],
+                "title": "Is it true that all people came from apes?",
+                "text": "<p>A little girl asks her mother:<br />Is it true that all people came from apes?<br />Yes, it is true.<br />Even me?</p>"
+            },
+            "battle": [
+                {
+                    "autor_id": 6,
+                    "autor_name": "Ольга",
+                    "text": "<p>Маленькая девочка спрашивает маму:<br />&nbsp;&mdash;Правда что все люди произошли от обезьян?<br />&nbsp;&mdash;Да<br />&nbsp;&mdash;Даже я?</p>"
+                },
+                {
+                    "autor_id": 2,
+                    "autor_name": "Петр",
+                    "text": "<p>&nbsp;&mdash;Правда ли мы пришли от обезьян?<br />&nbsp;&mdash;Правда.</p>"
+                }
+            ]
+        },
+        {
+            "original": {
+                "language": "German",
+                "tags": ["german", "saying", "morgen"],
+                "title": "Morgen",
+                "text": "Morgen, morgen, nur nicht heute, sagen alle faulen Leute."
+            },
+            "battle": [
+                {
+                    "autor_id": 5,
+                    "autor_name": "Анна",
+                    "text": "<p>Завтра, завтра, только не сегодня, говорят все ленивые люди.</p>"
+                },
+                {
+                    "autor_id": 3,
+                    "autor_name": "Мария",
+                    "text": "Никогда не делай сеегодня, то, что можно сделать завтра."
+                }
+            ]
+        },
+        {
+            "original": {
+                "language": "Spanish",
+                "tags": ["spanish", "saying"],
+                "title": "Dame",
+                "text": "Dame pan y llamame tonto"
+            },
+            "battle": [
+                {
+                    "autor_id": 7,
+                    "autor_name": "Don Juan",
+                    "text": "А Васька слушает да ест."
+                },
+                {
+                    "autor_id": 8,
+                    "autor_name": "Лепорелло",
+                    "text": "Дай мне хлеба и можешь назвать меня глупым."
+                }
+            ]
+        }
+    ]
+}
